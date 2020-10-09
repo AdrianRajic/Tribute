@@ -1,4 +1,12 @@
-h1{
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.title{
   text-align: center;
   font-family: robotodraft;
   font-size: 40px;
@@ -8,11 +16,9 @@ h1{
   font-weight: 300;
   text-shadow: 0 5px 0 rgba(0, 0, 0, 0.12);
 
-  margin-top: 100px;
-  margin-left: 300px;
-  margin-right: 300px;
-
-
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 150px;
 
   border: 2px solid white;
   border-radius: 1px;
@@ -21,25 +27,28 @@ h1{
 .background{
   background: url("Jeff.jpg") no-repeat center scroll;
   background-size: cover;
-  padding: 400px;
-
-
-
-
+  padding: 450px;
 
 
 }
 
-.about {
-  border: 2px solid black;
-  border-radius: 1px;
-  margin-top: 300px;
-  margin-right: 500px;
-  margin-left: 500px;
-  margin-bottom: 150px;
+h2{
+  border-bottom: 1px solid black;
+  font-family: robotodraft;
+  text-transform: capitalize;
+  font-size: 50px;
+
   padding: 16px;
+  font-weight: 300;
+
+}
+
+.about {
+  padding: 16px;
+  padding-right: 800px;
 
   font-family: robotodraft;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
   font-weight: 300;
+

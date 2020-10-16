@@ -1,0 +1,45 @@
+}
+.title{
+  text-align: center;
+  font-family: robotodraft;
+  font-size: 40px;
+  color: white;
+  padding: 16px;
+  letter-spacing: .25em;
+  font-weight: 300;
+  text-shadow: 0 5px 0 rgba(0, 0, 0, 0.12);
+
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 150px;
+
+  border: 2px solid white;
+  border-radius: 1px;
+}
+
+.background{
+  background: url("Jeff.jpg") no-repeat center scroll;
+  background-size: cover;
+  padding: 450px;
+
+
+}
+
+h2{
+  border-bottom: 2px solid black;
+  font-family: robotodraft;
+  text-transform: capitalize;
+  font-size: 50px;
+
+  padding: 20px;
+  font-weight: 300;
+
+}
+
+.about {
+  padding: 16px;
+  padding-right: 800px;
+
+  font-size: 15px;
+  color: black;
+  font-weight: 300;

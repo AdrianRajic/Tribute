@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -28,15 +29,12 @@ html{
   width: 400px;
 }
 
-
-
-
 }
-
 ul{
   float: left;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 20px;
+  
 
 }
 
@@ -46,10 +44,12 @@ ul li{
 
 ul li a{
   text-decoration: none;
-  padding: 5px 20px;
+  padding: 10px 20px;
   color: #fff;
   border: 1px solid transparent;
   transition: 0.6s ease;
+  font-family: robotodraft;
+
 }
 
 ul li a:hover{
@@ -61,25 +61,7 @@ ul li a:hover{
 ul li.active a{
   background-color:#fff;
 }
-h2{
-  border-bottom: 2px solid black;
-  font-family: robotodraft;
-  text-transform: capitalize;
-  font-size: 50px;
 
-  padding: 20px;
-  font-weight: 300;
-
-}
-
-.about {
-  padding: 16px;
-  padding-right: 800px;
-
-  font-size: 15px;
-  color: black;
-  font-weight: 300;
-}
 .menu ul{
   	display: inline-flex;
     margin-left: 10px;

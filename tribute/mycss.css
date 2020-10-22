@@ -44,11 +44,12 @@ ul li{
 
 ul li a{
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 30px;
   color: #fff;
-  border: 1px solid transparent;
+  border: 1px solid white;
   transition: 0.6s ease;
   font-family: robotodraft;
+ 
 
 }
 
@@ -65,7 +66,7 @@ ul li.active a{
 .menu ul{
   	display: inline-flex;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
   	font-size: 25px;
   }
   .menu ul li{

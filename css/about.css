@@ -1,0 +1,51 @@
+}
+.title{
+  text-align: center;
+  font-family: robotodraft;
+  font-size: 40px;
+  color: white;
+  padding: 16px;
+  letter-spacing: .25em;
+  font-weight: 300;
+  text-shadow: 0 5px 0 rgba(0, 0, 0, 0.12);
+  margin: 150px 200px 0px 200px;
+  border: 2px solid white;
+  border-radius: 1px;
+}
+
+
+h2{
+  border-bottom: 2px solid black;
+  font-family: robotodraft;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding: 20px;
+  font-weight: 300;
+
+}
+
+.about {
+  padding: 16px;
+  padding-right: 800px;
+
+  font-size: 22px;
+  color: black;
+  font-weight: 300;
+
+  }
+
+.image1{
+	margin-left: 1300px;
+	margin-bottom: 500px;
+	margin-top: -500px;
+
+	border: 2px solid;
+}
+
+.image2{
+	margin-left: 1300px;
+	margin-top: -600px;
+	margin-bottom: 250px;
+
+	border: 2px solid;
+}

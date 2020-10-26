@@ -3,12 +3,17 @@
   margin: 0;
   padding: 0;
 }
+
+/* This removes the space outside the border. */
+
 html{
 
   background: url("Jeff.jpg")
   no-repeat center fixed;
   background-size: cover;
 
+ /* This changes the background behind the main title */ 
+  
 }
 .title{
   text-align: center;
@@ -29,18 +34,22 @@ html{
   width: 400px;
 }
 
+/* This changes the size, font and placement of the main title, aswell as giving me a border around it.  */
 }
+
 ul{
   float: left;
   list-style-type: none;
   margin-top: 20px;
   
-
+/* This changes the position of the "buttons" and removes the bullets  */
 }
 
 ul li{
   display: inline-block;
 }
+
+/* Makes them align to eachother  */
 
 ul li a{
   text-decoration: none;
@@ -49,19 +58,23 @@ ul li a{
   border: 1px solid white;
   transition: 0.6s ease;
   font-family: robotodraft;
- 
 
 }
+
+/* Changes the look of the button.  */
 
 ul li a:hover{
   background-color: #fff;
   color: #000;
 
 }
+/* Gives the link color to #000 (white) on hover  */
 
 ul li.active a{
   background-color:#fff;
 }
+
+/* Changes the standard color of the button  */
 
 .menu ul{
   	display: inline-flex;
@@ -69,6 +82,8 @@ ul li.active a{
     margin-top: 20px;
   	font-size: 25px;
   }
+
+/* Sets the menu position and changes font size of the buttons */
   .menu ul li{
 
   	list-style: none;
@@ -77,3 +92,4 @@ ul li.active a{
   	cursor: pointer;
 
   }
+/* Changes the cursor property for example*/

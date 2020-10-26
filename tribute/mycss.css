@@ -42,7 +42,7 @@ ul{
   list-style-type: none;
   margin-top: 20px;
   
-/* This changes the position of the "buttons" and removes the bullets  */
+/* This moves the buttons to the left and removes the bullets  */
 }
 
 ul li{

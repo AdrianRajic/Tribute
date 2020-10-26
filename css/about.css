@@ -1,18 +1,3 @@
-}
-.title{
-  text-align: center;
-  font-family: robotodraft;
-  font-size: 40px;
-  color: white;
-  padding: 16px;
-  letter-spacing: .25em;
-  font-weight: 300;
-  text-shadow: 0 5px 0 rgba(0, 0, 0, 0.12);
-  margin: 150px 200px 0px 200px;
-  border: 2px solid white;
-  border-radius: 1px;
-}
-
 
 h2{
   border-bottom: 2px solid black;
@@ -24,6 +9,8 @@ h2{
 
 }
 
+/* These are the settings for the ABOUT title.  */
+
 .about {
   padding: 16px;
   padding-right: 800px;
@@ -34,6 +21,8 @@ h2{
 
   }
 
+/*Changes the padding, font size, color and the font weight of the about text.  */
+
 .image1{
 	margin-left: 1300px;
 	margin-bottom: 500px;
@@ -41,6 +30,7 @@ h2{
 
 	border: 2px solid;
 }
+/*Changes where the first image will be positioned and gives it a thin border.  */
 
 .image2{
 	margin-left: 1300px;
@@ -49,3 +39,4 @@ h2{
 
 	border: 2px solid;
 }
+/*Changes where the second image will be positioned and gives it a thin border.  */
